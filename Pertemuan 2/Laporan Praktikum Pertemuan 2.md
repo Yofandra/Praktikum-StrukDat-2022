@@ -31,3 +31,8 @@
 
 ### Latihan/Tugas Praktikum
 <img src="img/8.png">
+<img src="img/9.png">
+<img src="img/10.png">
+<img src="img/11.png">
+<img src="img/12.png">
+<img src="img/13.png">
