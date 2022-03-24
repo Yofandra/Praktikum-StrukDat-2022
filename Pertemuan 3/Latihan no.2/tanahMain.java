@@ -6,7 +6,7 @@ public class tanahMain{
         System.out.print("Masukkan jumlah tanah yang akan dihitung: ");
         int jumlah = sc.nextInt();
         tanah[] tn = new tanah[jumlah];
-
+        
         for(int i=0; i<jumlah; i++){
             System.out.print("Masukkan panjang tanah " + (i+1) + " = ");
             int panjang = sc.nextInt();
