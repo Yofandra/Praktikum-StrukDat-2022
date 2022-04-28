@@ -20,12 +20,12 @@ public class TiketService {
     }
 
     void bubbleSort(){
-        for(int i=0; i<tikets.length-1; i++){
-            for(int j=1; j<tikets.length; j++){
-                if (tikets[j].harga < tikets[j-1].harga){
+        for(int i=0; i<tikets.length; i++){
+            for(int j=1; j<tikets.length-1; j++){
+                if (tikets[j].harga < tikets[j+1].harga){
                     Tiket tmp = tikets[j];
-                    tikets[j]= tikets[j-1];
-                    tikets[j-1]= tmp;
+                    tikets[j]= tikets[j+1];
+                    tikets[j+1]= tmp;
                 }
             }
         }
