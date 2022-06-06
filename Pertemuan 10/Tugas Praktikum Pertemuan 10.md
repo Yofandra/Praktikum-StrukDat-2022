@@ -261,7 +261,7 @@ public class QueueMain{
 ```
 
 output
-<img src="output10/1.1.png">
+<img src="output10/../../img/1.jpg">
 <img src="output10/1.2.png">
 
 2.
